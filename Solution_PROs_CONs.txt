@@ -1,0 +1,15 @@
+PROS
+1. it works
+2. log4j2 Appender implementation can be combined with plenty of available features like
+   - filters
+   - patterns
+   - adapters
+   - synchronous vs. asynchronous logging
+   - etc. 
+
+CONS
+1. very simple
+   - more advanced implementations already exist ("FileAppender")
+   - many aspects are hard coded
+   - doesn't support max file size limit / file rolling
+2. requires exclusive file access

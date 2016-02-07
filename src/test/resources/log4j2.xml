@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<SimpleFileAppender name="JurajsAppender" logFile="target/test.log" searchString="abcdef">
+			<PatternLayout pattern="%d | %level | %m%n" />
+		</SimpleFileAppender>
+	</Appenders>
+	<Loggers>
+		<Root level="all">
+			<AppenderRef ref="JurajsAppender" />
+		</Root>
+	</Loggers>
+</Configuration>
